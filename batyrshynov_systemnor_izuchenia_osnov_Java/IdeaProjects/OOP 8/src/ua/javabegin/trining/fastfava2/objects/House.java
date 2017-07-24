@@ -10,12 +10,12 @@ public class House {
 
     private String ownerName = "Nation";
 
-    public boolean lightningProtectionTurnOn(boolean onOf) {
+    private boolean lightningProtectionTurnOn(boolean onOf) {
 
         return onOf;
     }
 
-    public void buy() {
+    private void buy() {
 
     }
 
