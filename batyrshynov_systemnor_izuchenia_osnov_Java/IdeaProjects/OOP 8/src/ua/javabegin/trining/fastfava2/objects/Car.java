@@ -1,16 +1,18 @@
 package ua.javabegin.trining.fastfava2.objects;
 
-public class Door {
+public class Car {
 
-    private String color = "grey";
-    private int height = 197;
+    private String name;
+    private String color;
+    private int height;
 
-    private void open() {
 
+    public String getName() {
+        return name;
     }
 
-    private void close(boolean keyClose) {
-
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getColor() {
